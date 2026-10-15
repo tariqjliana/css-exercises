@@ -4,17 +4,48 @@ body {
 }
 
 .card {
-  width: 400px;
+  box-sizing: content-box;
+  width: 600px;
+  height: 240px;
   background: white;
   margin: 16px auto;
+
+}
+
+.title {
+  box-sizing: content-box;
+  width: 580px;
+  height: 40px;
+  margin: 15px auto;
+}
+
+.content{
+  box-sizing: content-box;
+  width: 580px;
+  height: 75px;
+  margin: 15px auto;
+}
+
+.button-container{
+  box-sizing: content-box;
+  width: 580px;
+  height: 75px;
+  display: block;
+  margin: 20px auto;
 }
 
 .title,
 .content,
 .button-container {
+  display: block;
   background: dodgerblue;
 }
 
 button {
+  box-sizing: content-box;
+  display: block;
   background: white;
+  width: 150px;
+  height: 30px;
+  margin: 0 auto;
 }
